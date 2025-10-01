@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias Em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>tente abrir esse site em vários diposítivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <!--Source media, colocar no max.....srcset= colocar o nome dapasta e da imagem.png .... type colocar png depois do /-->
+        <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png"><source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+    <H1>Reproduzindo Áudio</H1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio src="midia/Atch - All The Same ｜ No Copyright Music.mp3" controls autoplay></audio>
+    <!-- MP3=mpeg, WAV OGG-->
+     <audio> 
+        <source src="midia/Atch - All The Same ｜ No Copyright Music.mp3" type="audio/mpeg">
+     </audio>
+    
+</body>
+</html>
