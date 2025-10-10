@@ -1,0 +1,15 @@
+@charset "UFT-8";
+
+body{
+    background-image: url('https://cdn.pixabay.com/photo/2018/01/12/14/24/night-3078326_960_720.jpg');
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+h1{
+    color: white;
+}
