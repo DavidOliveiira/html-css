@@ -1,4 +1,4 @@
-@charset "UFT-8";
+@charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -16,18 +16,25 @@
     src: url(Fontes/ComicSansMS3.ttf);
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 
 body{
     background-color: white;
     margin: 0;
     padding: 0;
+    overflow: hidde;
 }
 
 .container{
     margin: 0 auto;
-    max-width: 98%;
+    max-width: 100%;
     height: auto;
-    min-height: 100vh;
+    
 }
 
 h1{
@@ -50,9 +57,9 @@ header p {
 
 header{
     background-color: black;
-    padding: 20px;
+    padding: 100px;
     margin: 0px auto 0px auto;
-    width: 98%;
+    width: 100%;
     
    
 }
@@ -67,14 +74,57 @@ main p {
     margin-bottom: 100px;
 }
 
-img{
-    background-image: url(joaninha.jpg);
-    min-height: 500px;
-    max-width: 800px;
-    height: auto;
+.joaninha{
+    padding: 10px 0;
+    background-color: rgba(26, 24, 24, 0.836);
+    width: 100%;
+    background-image: url(imagens/background001.jpg);
     background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center center;
+
+}
+
+section div p{
+    font-family: 'comic';
+    font-size: 30px;
+    line-height: 2;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    color: white;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.377);
+    padding: 20px;
+    max-width: 500px;
     
+}
+
+.padrao{
+    background-color: white;
+    color: black;
+    margin-left: 2px;
+}
+
+.livro{
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.726);
+    width: 100%;
+    background-image: url(imagens/background002.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    margin: 0px;
+    font-size: 21px;
+}
+
+footer p {
+    font-family: 'Work Sans' sans-serif;
 }
