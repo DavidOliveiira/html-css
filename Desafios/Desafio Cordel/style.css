@@ -27,7 +27,7 @@ body{
     background-color: white;
     margin: 0;
     padding: 0;
-    overflow: hidde;
+    min-height: 100vh;
 }
 
 .container{
@@ -53,6 +53,7 @@ header p {
     color: white;
     text-align: center;
     font-family: '', 'Work Sans' ;
+    padding-top: 20px;
 }
 
 header{
@@ -62,6 +63,10 @@ header{
     width: 100%;
     
    
+}
+main{
+    padding-bottom: 10vh;
+    padding-top: 10vh;
 }
 
 main p {
