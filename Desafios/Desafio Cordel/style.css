@@ -87,7 +87,8 @@ main p {
     width: 100%;
     background-image: url(imagens/background001.jpg);
     background-attachment: fixed;
-    background-position: center center;
+    background-position: right center;
+    background-size: cover;
 
 }
 
@@ -120,6 +121,7 @@ section div p{
     background-image: url(imagens/background002.jpg);
     background-attachment: fixed;
     background-position: center center;
+    background-size: cover;
 
 }
 
@@ -129,9 +131,16 @@ footer{
     text-align: center;
     padding: 8px;
     margin: 0px;
-    font-size: 21px;
+    font-size: 18px;
+    
 }
 
-footer p {
-    font-family: 'Work Sans' sans-serif;
+footer  p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+hover:a{
+    text-decoration: red;
 }
