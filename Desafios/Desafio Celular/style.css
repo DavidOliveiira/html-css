@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+
+
+body{font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    overflow-x: hidden;
+    height: 100vh;
+    background-image: url(imagens/fmadeira.jpg);
+    background-position: center center;
+    background-size: cover;
+
+}
+.celular{
+  
+    background-image: url(imagens/frame-iphone.png);
+    width: 40vw;
+    height: 73vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    margin-top: 100px;
+    background-size: contain;
+}
+
+iframe{
+    position: absolute;
+    margin-top: 100px;
+    width: 300px;
+    height: 500px;
+    border: none;
+
+    overflow: hidden;
+}
+
+#youtube{
+    background-image: url(imagens/logo-youtube.jpg);
+    border-radius: 50%;
+}
+img{
+    border-radius: 50%;
+    width: 60px;
+    height: 70px;
+    
+    
+}
+
